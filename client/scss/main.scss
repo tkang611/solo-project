@@ -1,3 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins&display=swap');
+
 body {
-    background-color: lightblue;
+  margin: 0px;
+  font-family: 'Poppins';
+  background-color: rgb(226, 226, 226);
+}
+
+#main-container {
+    margin: 0px;
+    position: relative;
+    font-size: 2em;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    padding-top: 150px;
+    align-items: center;
+  }
+
+h1 {
+  font-size: 1.35em;
+  margin: 20px auto;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: rgb(73, 73, 73);
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  bottom: 50%;
+}
+
+#search-form-container {
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+
+#text-field {
+font-size: 0.7em;
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px;
+  padding-inline-end: 1.5%;
+  padding-inline-start: 1.5%;
+  height: 100%;
+  width: 465px;
+  margin-right: 20px;
+}
+
+#text-field:focus {
+  outline: none;
+  border-radius: 10px;
+}
+
+#submit-btn {
+  font-size: 0.7em;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid rgb(228, 228, 228);
+  background-color: rgb(38, 131, 168);
+  box-shadow: 1px 0px 10px 1px rgba(212, 212, 212, 0.027);
+}
+
+#submit-btn:focus, #submit-btn:hover{
+  background-color: rgb(230, 217, 36);
+  color: rgb(43, 43, 43);
+  box-shadow: inset 0 0 30px rgba(87, 87, 87, 0.164)
 }
