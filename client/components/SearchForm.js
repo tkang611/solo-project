@@ -26,7 +26,8 @@ class SearchForm extends Component {
             <input id='text-field' type='text' 
             value={this.state.value} 
             onChange={this.handleChange} 
-            placeholder="What characteristics are you looking for?"/>
+            placeholder="What characteristics are you looking for?"
+            autoComplete="off"/>
           </label>
           <input id='submit-btn' type='submit' value='submit'/>
         </form>

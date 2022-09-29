@@ -3,7 +3,7 @@
 body {
   margin: 0px;
   font-family: 'Poppins';
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(223, 172, 143);
 }
 
 #main-container {
@@ -18,21 +18,26 @@ body {
     align-items: center;
   }
 
-h1 {
-  font-size: 1.35em;
-  margin: 20px auto;
-  position: absolute;
-  left: 50%;
-  top: 35%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  color: rgb(73, 73, 73);
-  text-align: center;
+#form-container {
+    background-color: black;
 }
 
-img {
+h1 {
+  font-size: 1.35em;
+  margin: 35px auto;
   position: absolute;
-  bottom: 50%;
+  left: 50%;
+  top: 38%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 2px rgba(75, 75, 75, 0.671);
+}
+
+#car-gif {
+  position: absolute;
+  bottom: 48%;
 }
 
 #search-form-container {
@@ -40,7 +45,7 @@ img {
   display: inline-block;
   position: absolute;
   left: 50%;
-  top: 48%;
+  top: 52%;
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
@@ -50,7 +55,7 @@ img {
 
 #text-field {
 font-size: 0.7em;
-  border: 0px;
+  border: 1px solid rgb(202, 202, 202);
   border-radius: 20px;
   padding: 10px;
   padding-inline-end: 1.5%;
@@ -58,6 +63,7 @@ font-size: 0.7em;
   height: 100%;
   width: 465px;
   margin-right: 20px;
+  box-shadow: 0px 0px 2px 1px rgba(182, 182, 182, 0.342);
 }
 
 #text-field:focus {
@@ -69,14 +75,14 @@ font-size: 0.7em;
   font-size: 0.7em;
   padding: 10px 20px;
   border-radius: 10px;
-  color: white;
-  border: 1px solid rgb(228, 228, 228);
-  background-color: rgb(38, 131, 168);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(51, 129, 160);
+  background-color: rgb(60, 155, 192);
   box-shadow: 1px 0px 10px 1px rgba(212, 212, 212, 0.027);
 }
 
-#submit-btn:focus, #submit-btn:hover{
-  background-color: rgb(230, 217, 36);
-  color: rgb(43, 43, 43);
-  box-shadow: inset 0 0 30px rgba(87, 87, 87, 0.164)
+#submit-btn:hover{
+  border: 1px solid rgb(43, 116, 145);
+  background-color: rgb(51, 134, 167);
+  box-shadow: inset 0 0 30px rgba(58, 58, 58, 0.164)
 }

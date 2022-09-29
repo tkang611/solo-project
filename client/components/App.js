@@ -5,9 +5,11 @@ class App extends Component {
   render() {
     return (
       <div id="main-container">
-        <img src="https://media0.giphy.com/media/Vekj1LWiEIxE3AqzDU/giphy.gif?cid=6c09b952l1ewyts0svhjvqc9h6ofjacp1x4seefeuh3bx6d7&rid=giphy.gif&ct=s"/>
-        <h1>Find Your Road Companion</h1>
-        <SearchForm />
+        <img id="car-gif"src="https://media0.giphy.com/media/Vekj1LWiEIxE3AqzDU/giphy.gif?cid=6c09b952l1ewyts0svhjvqc9h6ofjacp1x4seefeuh3bx6d7&rid=giphy.gif&ct=s"/>
+        <div id="form-container">
+          <h1>Find Your Road Companion</h1>
+          <SearchForm />
+        </div>
       </div>
     );
   }
