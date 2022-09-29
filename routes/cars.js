@@ -10,10 +10,10 @@ const {
 const router = express.Router()
 
 // create GET request to get all cars from database
-router.get('/', getCars)
+router.get('/', getCars);
 
 // create a GET request to get one single car
-router.get('/:id', getCar)
+router.get('/:id', getCar);
 
 // create a POST reqest to post a new car
 router.post('/', createCar);

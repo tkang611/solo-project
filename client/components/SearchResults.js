@@ -5,12 +5,9 @@ const searchResults = () => {
   const [cars, setCars] = useState();
 
   useEffect(() => {
-    fetch('/api/cars')
-    .then((res) => {
-      res.json()
-      console.log(res.json())
-    })
-    .then((data) => console.log(data))
+    fetch('/api/cars/')
+    .then((res) => res.json())
+    .then((data) => setCars(data))
   }, [])
   
   return (
