@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import SearchForm from './SearchForm'
+import SearchForm from './SearchForm';
+import SearchResults from './SearchResults';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
           <h1>Find Your Road Companion</h1>
           <SearchForm />
         </div>
+        <SearchResults />
       </div>
     );
   }
